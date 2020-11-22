@@ -1,0 +1,45 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.11.22"]
+[Round "-"]
+[White "slevin48"]
+[Black "GraciasSenior"]
+[Result "1-0"]
+[CurrentPosition "4R1k1/2p2ppp/8/3P4/2q5/P4n2/1PB4P/R1KQ4 b - -"]
+[Timezone "UTC"]
+[ECO "D00"]
+[ECOUrl "https://www.chess.com/openings/Queens-Pawn-Opening-Chigorin-Variation-2...Nf6"]
+[UTCDate "2020.11.22"]
+[UTCTime "13:55:42"]
+[WhiteElo "590"]
+[BlackElo "618"]
+[TimeControl "1800"]
+[Termination "slevin48 won by checkmate"]
+[StartTime "13:55:42"]
+[EndDate "2020.11.22"]
+[EndTime "14:27:19"]
+[Link "https://www.chess.com/live/game/5797229367"]
+
+1. d4 {[%clk 0:29:59.9]} 1... d5 {[%clk 0:29:59.9]} 2. Nc3 {[%clk 0:29:37.6]}
+2... Nf6 {[%clk 0:29:50.7]} 3. e3 {[%clk 0:29:17.9]} 3... Bg4 {[%clk 0:29:18.1]}
+4. f3 {[%clk 0:29:07.3]} 4... Bf5 {[%clk 0:28:39.4]} 5. Bb5+ {[%clk 0:29:03.7]}
+5... Nc6 {[%clk 0:28:29]} 6. g4 {[%clk 0:28:07.7]} 6... a6 {[%clk 0:28:15.3]} 7.
+Ba4 {[%clk 0:27:31.4]} 7... b5 {[%clk 0:28:11.1]} 8. Nxb5 {[%clk 0:27:17.3]}
+8... axb5 {[%clk 0:28:06.3]} 9. Bxb5 {[%clk 0:27:13.1]} 9... Qd7 {[%clk
+0:27:13]} 10. gxf5 {[%clk 0:26:49]} 10... e6 {[%clk 0:26:40.6]} 11. e4 {[%clk
+0:26:04.1]} 11... dxe4 {[%clk 0:26:19.4]} 12. fxe4 {[%clk 0:25:57]} 12... Nxe4
+{[%clk 0:26:08.4]} 13. c4 {[%clk 0:25:19.6]} 13... Bb4+ {[%clk 0:25:39.9]} 14.
+Kf1 {[%clk 0:24:09.7]} 14... Ra5 {[%clk 0:24:52.3]} 15. a3 {[%clk 0:23:20.2]}
+15... O-O {[%clk 0:24:31.1]} 16. d5 {[%clk 0:21:55.9]} 16... exd5 {[%clk
+0:23:32.6]} 17. cxd5 {[%clk 0:21:45.1]} 17... Qxf5+ {[%clk 0:23:25.9]} 18. Ke2
+{[%clk 0:20:50]} 18... Qf2+ {[%clk 0:23:01.1]} 19. Kd3 {[%clk 0:20:37.5]} 19...
+Ne5+ {[%clk 0:22:07]} 20. Kxe4 {[%clk 0:20:30.1]} 20... Re8 {[%clk 0:21:41.3]}
+21. Bxe8 {[%clk 0:20:13.2]} 21... Ng6 {[%clk 0:20:29.5]} 22. Bd2 {[%clk
+0:18:52]} 22... Bxd2 {[%clk 0:20:08.1]} 23. Nf3 {[%clk 0:18:18.2]} 23... Ra4+
+{[%clk 0:18:49.4]} 24. Bxa4 {[%clk 0:17:39.6]} 24... Bg5 {[%clk 0:18:16.2]} 25.
+Nxg5 {[%clk 0:17:30.4]} 25... Qf4+ {[%clk 0:18:11.1]} 26. Kd3 {[%clk 0:17:02.9]}
+26... Qxg5 {[%clk 0:18:09]} 27. Rg1 {[%clk 0:16:27.5]} 27... Ne5+ {[%clk
+0:17:54.1]} 28. Kc2 {[%clk 0:15:42.4]} 28... Qe3 {[%clk 0:16:50]} 29. Re1 {[%clk
+0:14:46.1]} 29... Qd3+ {[%clk 0:15:38.3]} 30. Kc1 {[%clk 0:14:15.3]} 30... Qc4+
+{[%clk 0:15:00.3]} 31. Bc2 {[%clk 0:13:57.3]} 31... Nf3 {[%clk 0:14:50.7]} 32.
+Re8# {[%clk 0:13:48.4]} 1-0
