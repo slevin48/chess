@@ -1,0 +1,8 @@
+[Event "Vs. Computer"]
+[Site "Chess.com"]
+[Date "2020-11-23"]
+[White "slevin48"]
+[Black "Jimmy"]
+[Result "1/2-1/2"]
+[Termination "Draw by stalemate"]
+1. d4 d5 2. e3 Nc6 3. Nc3 Nf6 4. Nf3 Bg4 5. h3 Bxf3 6. gxf3 e5 7. h4 Rb8 8. h5 Qd6 9. Rh4 Qb4 10. a3 Qb6 11. dxe5 Nd7 12. f4 Nc5 13. f5 Nb3 14. cxb3 Qa5 15. b4 Be7 16. f3 Bxh4+ 17. Ke2 Qb6 18. Nxd5 Qb5+ 19. Qd3 Qxd3+ 20. Kxd3 a6 21. Nxc7+ Kd8 22. Nd5 Nxe5+ 23. Kd4 Nxf3+ 24. Ke4 Ng5+ 25. Kd3 Nf3 26. Be2 Ne1+ 27. Ke4 Ra8 28. a4 Re8+ 29. Kd4 Bg5 30. e4 Rg8 31. Bxg5+ f6 32. Bd2 Nc2+ 33. Kd3 Kd7 34. Ne3 Nd4 35. Kxd4 Raf8 36. b5 Kc7 37. bxa6 Rb8 38. Bc4 bxa6 39. Bxg8 Kb6 40. Bxh7 Kb7 41. Nd5 Ra8 42. Nxf6 gxf6 43. h6 Ra7 44. Bg8 Kb8 45. h7 a5 46. h8=Q Rb7 47. Bd5+ Ka7 48. Bxa5 Rb8 49. Qxf6 Rxb2 50. Kc3 Rb7 51. Bxb7 Kb8 52. Qf8+ Kxb7 53. Rb1+ Ka7 54. Bb6+ Kb7 55. Qb8+ Kxb8 56. f6 Kb7 57. Be3+ Ka8 58. f7 1/2-1/2

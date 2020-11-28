@@ -3,20 +3,24 @@ import chess
 import chess.pgn
 import chess.svg
 import base64
+import os
 
-pgn = open('slevin48_vs_GraciasSenior_2020.11.22.pgn')
-first_game = chess.pgn.read_game(pgn)
-st.title(first_game.headers["White"]+" vs "+first_game.headers["Black"])
-st.write(first_game.headers["Link"])
+files = os.listdir('games')
+file = st.selectbox('Select game',files)
+pgn = open('games/'+file)
 
-board = first_game.board()
-moves = [move for move in first_game.mainline_moves()]
-mv = st.slider("Move",0,len(moves))
+game = chess.pgn.read_game(pgn)
+st.title(game.headers["White"]+" vs "+game.headers["Black"])
+# st.write(game.headers["Link"])
+
+board = game.board()
+moves = [move for move in game.mainline_moves()]
+mv = st.slider("Move",0,len(moves),len(moves))
 
 for move in moves[0:mv]:
     board.push(move)
 
-# for move in first_game.mainline_moves():
+# for move in game.mainline_moves():
 #     board.push(move)
 
 def render_svg(svg):

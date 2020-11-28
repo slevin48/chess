@@ -1,0 +1,8 @@
+[Event "Vs. Computer"]
+[Site "Chess.com"]
+[Date "2020-11-23"]
+[White "slevin48"]
+[Black "Jimmy"]
+[Result "1/2-1/2"]
+[Termination "Draw by stalemate"]
+1. d4 d5 2. Nc3 c5 3. Nf3 Nf6 4. b3 Be6 5. e3 Bf5 6. Bd3 cxd4 7. exd4 Bxd3 8. cxd3 Qc7 9. Qd2 b6 10. O-O a6 11. g4 a5 12. g5 Qd8 13. gxf6 Qd7 14. fxg7 Qg4+ 15. Kh1 Qxf3+ 16. Kg1 Rg8 17. Ne2 Ra7 18. Ng3 Bxg7 19. Qe3 Qxe3 20. fxe3 h6 21. e4 Bxd4+ 22. Rf2 h5 23. Kf1 Rg4 24. Rb1 a4 25. Nxh5 f6 26. exd5 axb3 27. axb3 Rg1+ 28. Kxg1 Bxf2+ 29. Kxf2 Rb7 30. h4 f5 31. Ng7+ Kf7 32. Bh6 Rd7 33. b4 Rxd5 34. Rd1 Re5 35. d4 Re6 36. d5 Rxh6 37. Nxf5 Rf6 38. Ke3 Rxf5 39. Ke4 Rh5 40. Rf1+ Kg6 41. Rg1+ Kh7 42. d6 Rxh4+ 43. Ke5 Nc6+ 44. Kd5 Nb8 45. dxe7 Rh5+ 46. Kd4 Nc6+ 47. Kd3 Rh3+ 48. Ke2 Rh2+ 49. Kf1 Nxe7 50. Rg2 Rh5 51. Re2 Nc6 52. b5 Nb8 53. Re8 Rh1+ 54. Kg2 Rb1 55. Rxb8 Kg7 56. Rxb6 Rb2+ 57. Kf3 Rb4 58. Rb7+ Kh6 59. b6 Kg5 60. Rb8 Rb2 61. b7 Kf5 62. Rf8+ Ke5 63. b8=Q+ Rxb8 64. Rxb8 Kd6 65. Ke4 Ke6 66. Rb6+ Ke7 67. Ke5 Kf8 68. Kf6 Ke8 69. Rb8+ Kd7 70. Rb7+ Kd8 71. Kf7 Kc8 72. Re7 Kd8 73. Ke6 Kc8 74. Rd7 Kb8 75. Kd6 Ka8 76. Rc7 Kb8 77. Kc6 Ka8 78. Rb7 1/2-1/2

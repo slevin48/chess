@@ -1,0 +1,10 @@
+[Event "GraciasSenior vs slevin48"]
+[Site "Chess.com"]
+[Date "2020-11-22"]
+[White "GraciasSenior"]
+[Black "slevin48"]
+[Result "1-0"]
+[WhiteElo "635"]
+[BlackElo "397"]
+[TimeControl "standard"]
+1. e4 Nf6 2. Nc3 e5 3. Bc4 d6 4. d3 Bg4 5. Nf3 d5 6. exd5 c6 7. h3 Bf5 8. g4 Nxg4 9. hxg4 Bxg4 10. Rg1 Bxf3 11. Qxf3 f5 12. Bg5 h6 13. Bxd8 Kxd8 14. Qxf5 Nd7 15. dxc6 bxc6 16. Be6 Nb6 17. O-O-O a5 18. d4 exd4 19. Rxd4+ Kc7 20. Rd7+ Kb8 21. Rd8+ Kc7 22. Rxa8 Nxa8 23. Bc8 Kb6 24. a3 Bc5 25. Rd1 Rxc8 26. Qxc8 Bxf2 27. Rd6 Be3+ 28. Kb1 Bf4 29. Qxc6+ Ka7 30. Nb5+ Kb8 31. Rd8# 1-0

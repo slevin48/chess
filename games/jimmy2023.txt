@@ -1,0 +1,8 @@
+[Event "Vs. Computer"]
+[Site "Chess.com"]
+[Date "2020-11-23"]
+[White "Jimmy"]
+[Black "slevin48"]
+[Result "0-1"]
+[Termination "slevin48 won by checkmate"]
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 d6 5. cxb6 axb6 6. d3 c5 7. g3 g5 8. a4 Bg7 9. Be2 Bxe5 10. Bf3 Nc6 11. Bxc6+ bxc6 12. Nc3 O-O 13. Nce2 f6 14. h3 h5 15. Qb3+ Rf7 16. Nc3 Ba6 17. Kd1 Bxd3 18. Rh2 c4 19. Qb4 b5 20. Rh1 bxa4 21. Rxa4 Rxa4 22. Qxa4 e6 23. Nf3 Bxc3 24. bxc3 g4 25. Nd2 gxh3 26. Rxh3 Bf5 27. Qxc4 Bxh3 28. Qxc6 Rc7 29. c4 Rxc6 30. Nb3 Rxc4 31. Ke2 Qb8 32. Bd2 Qxb3 33. f3 h4 34. gxh4 Rxh4 35. f4 e5 36. Kf2 exf4 37. Bc1 Qc2+ 38. Ke1 Qxc1+ 39. Ke2 Bg4+ 40. Kd3 Rh3+ 41. Kd4 Bf3 42. Kd3 d5 43. Kd4 Rh2 44. Kd3 Qd1+ 45. Kc3 d4+ 46. Kb4 d3 47. Kc5 d2 48. Kd6 Qa4 49. Ke6 d1=Q 50. Kxf6 Qd6+ 51. Kf5 Be4+ 52. Kg4 Qg6+ 53. Kxf4 Rf2+ 54. Ke3 Qg3# 0-1
