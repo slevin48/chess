@@ -1,7 +1,12 @@
 # Chess [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/slevin48/chess/main/chess-app.py)
 
 Analyzing chess games and rendering as a [web app](https://share.streamlit.io/slevin48/chess/main/chess-app.py)
+
 ![game1](game1.svg)
+
+Match plot:
+
+![matchplot](matchplot.png)
 
 ## AlphaZero
 
