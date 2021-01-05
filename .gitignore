@@ -1,2 +1,4 @@
 stockfish_20090216_x64.exe
 __pycache__/chessviz.cpython-37.pyc
+env
+.vscode
