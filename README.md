@@ -16,13 +16,26 @@ Match plot:
 import chess
 import chess.engine
 
-def stockfish_evaluation(board, time_limit = 0.01):
+def stockfish_evaluation(board, color='white', time_limit = 0.01):
     engine = chess.engine.SimpleEngine.popen_uci("/usr/games/stockfish")
-    result = engine.analyse(board, chess.engine.Limit(time=time_limit))
+    info = engine.analyse(board, chess.engine.Limit(time=time_limit))
+    if color == 'white':
+        score = info['score'].white().score()
+    else:
+        score = info['score'].black().score()
     engine.quit()
-    return result['score']
+    return score
 
-board = chess.Board("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")
+pgn = open('games/slevin48_vs_GraciasSenior_2020.11.22.pgn')
+first_game = chess.pgn.read_game(pgn)
+
+# Move 48
+board = first_game.board()
+moves = [move for move in first_game.mainline_moves()]
+
+# Iterate through all moves and play them on a board
+for move in moves[0:48]:
+    board.push(move)
 result = stockfish_evaluation(board)
 print(result)
 ```
@@ -42,6 +55,9 @@ print("Score:", info["score"])
 
 engine.quit()
 ```
+
+It enables to perform analysis plots of the match
+![matchplot](images/matplot.png)
 
 ## AlphaZero
 
