@@ -14,6 +14,7 @@ Match plot:
 
 ```python
 import chess
+import chess.pgn
 import chess.engine
 
 def stockfish_evaluation(board, color='white', time_limit = 0.01):
@@ -44,7 +45,6 @@ print(result)
 
 ```python
 import chess
-import chess.pgn
 import chess.engine
 
 engine = chess.engine.SimpleEngine.popen_uci("/usr/games/stockfish")
@@ -60,6 +60,20 @@ engine.quit()
 It enables to perform analysis plots of the match
 
 ![matchplot](images/matplot.png)
+
+
+## Stockfish on demand
+
+[Dockerfile](Dockerfile) installing Stockfish + Python Chess library, exposing analysis as a REST API:
+
+```
+docker build -t chess-engine .
+docker run chess-engine -p 8080:8080
+```
+
+```
+curl http://localhost:8080/score -d '{"data":"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"}' -X POST -v -H "Content-Type: application/json"
+```
 
 ## AlphaZero
 
