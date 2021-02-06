@@ -44,6 +44,7 @@ print(result)
 
 ```python
 import chess
+import chess.pgn
 import chess.engine
 
 engine = chess.engine.SimpleEngine.popen_uci("/usr/games/stockfish")
@@ -57,6 +58,7 @@ engine.quit()
 ```
 
 It enables to perform analysis plots of the match
+
 ![matchplot](images/matplot.png)
 
 ## AlphaZero
