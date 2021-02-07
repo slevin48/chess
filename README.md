@@ -64,17 +64,30 @@ It enables to perform analysis plots of the match
 
 ## Stockfish on demand
 
-[Dockerfile](Dockerfile) installing Stockfish + Python Chess library, exposing analysis as a REST API:
+🐋[Dockerfile](Dockerfile) installing Stockfish + Python Chess library, exposing analysis as a REST API:
 
 ```
 docker build -t chess-engine .
-docker run chess-engine -p 8080:8080
+docker run -p 5000:5000 chess-engine
 ```
+(run command can also be detached: `--detach` , `-d`)
 
 ```
-curl http://localhost:8080/score -d '{"data":"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"}' -X POST -v -H "Content-Type: application/json"
+curl http://localhost:5000/score -d '{"data":"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"}' -X POST -v -H "Content-Type: application/json"
 ```
+(unnecessary use of `-X POST` and of optional use of `-v` for verbose output)
 
+🚀*Deploy to Heroku* 
+[Dockerize Your Python Flask application and deploy it onto Heroku](https://medium.com/analytics-vidhya/dockerize-your-python-flask-application-and-deploy-it-onto-heroku-650b7a605cc9)
+```
+$ curl https://stockfish48.herokuapp.com/score -d '{"data":"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"}' -H "Content-Type: application/json"
+{
+  "data": 40, 
+  "isError": false, 
+  "message": "Success", 
+  "statusCode": 200
+}
+```
 ## AlphaZero
 
 Mentally play through possible future scenarios, giving priority to promising paths, whilst also considering how others are most likely to react to your actions and continuing to explore the unknown.

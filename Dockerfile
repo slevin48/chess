@@ -3,8 +3,6 @@ FROM python:3.8.2-slim
 ENV APP_HOME /app
 WORKDIR ${APP_HOME}
 
-COPY . ./
-
 # Install Ubuntu dependencies
 # libopencv-dev = opencv dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -18,8 +16,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip install chess flask uvicorn
+RUN pip install chess flask
 
-EXPOSE 8080
+COPY . ./
+
+# EXPOSE 5000
 
 CMD ["python", "flask-app.py"]
