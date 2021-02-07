@@ -1,2 +1,4 @@
 streamlit
 chess
+requests
+matplotlib
