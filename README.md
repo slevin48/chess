@@ -119,6 +119,7 @@ Code:
 * [Python-Easy-Chess-GUI](https://github.com/fsmosca/Python-Easy-Chess-GUI)
 * [Chess analysis D3js](https://github.com/m-hou/Chess-Analysis)
 * [Python chess graph](https://github.com/Destaq/chess_graph)
+* [Chess web app](https://github.com/SayonB/Predicting-Pro-Chess-Moves)
 
 Articles:
 * [Using Deep Learning to train a Deep Search Chess Algorithm](https://towardsdatascience.com/creating-a-chess-engine-with-deep-learning-b9477ff3ee3d)
@@ -130,3 +131,4 @@ Articles:
 * [Chessviz](https://andreasstckl.medium.com/chessviz-graphs-of-chess-games-7ebd4f85a9b9)
 * [Machine Learning for Chess — AlphaZero vs Stockfish](https://mmsubra1.medium.com/machine-learning-for-chess-alphazero-vs-stockfish-b58638e73fee)
 * [AlphaZero Crushes Stockfish In New 1,000-Game Match](https://www.chess.com/news/view/updated-alphazero-crushes-stockfish-in-new-1-000-game-match)
+* [Predicting Professional Players’ Chess Moves with Deep Learning](https://towardsdatascience.com/predicting-professional-players-chess-moves-with-deep-learning-9de6e305109e)
